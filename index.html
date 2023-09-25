@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Barriecito&family=Bebas+Neue&family=Borel&family=Caveat&family=Comic+Neue&family=DM+Serif+Display:ital@1&family=Dosis:wght@800&family=Libre+Baskerville&family=Lora:ital,wght@0,400;1,400;1,600&family=Montserrat&family=Mooli&family=Open+Sans:wght@300&family=Orbitron&family=Pacifico&family=Pangolin&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <style>
+      .scores {
+        word-spacing: 200px;
+        font-size: 1.5rem;
+
+      }
+      .two {
+        word-spacing: 190px;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .highest {
+        font-size: 1.5rem;
+        height:40px;
+        text-align: center;
+        margin-top: 5%;
+ 
+      }
+      .restart {
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color:green;
+        color: white;
+        padding: 5%;
+      }
+      .container {
+        background-color: #F0DE36;
+        border-radius: 50px;
+      }
+      .nike {
+        background-color: white;
+        height: 50px;
+        font-size: 1.5rem;
+        color:#0D1282;
+        margin-top: 3%;
+        padding:10px;
+      }
+      #obinna {
+        word-spacing: 178px;
+      }
+      .chike {
+        word-spacing: 195px;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+     <div class="highest">HIGHEST SCORE</div>
+     <div class="scores"><p class="nike">Violet 500</p></div>
+     <div class="scores"><p id="obinna">Obinna 469</p></div>
+     <div class="scores"><p class="two">Rugba 412</p></div>
+     <div class="scores" ><p class="chike">Chike 315</p></div>
+     <div class="restart">RESTART GAME</div>
+  </div>
+</body>
+</html>
